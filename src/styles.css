@@ -1,0 +1,133 @@
+
+.event-list {
+  padding: 20px;
+  text-align: center;
+}
+
+.event-list h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.event-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.event-list li {
+  display: inline-block;
+  margin: 20px;
+  width: 300px;
+  text-align: center;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-list li img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.event-list li h3 {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+.event-list li p {
+  font-size: 1.1em;
+  color: #555;
+}
+
+.event-list li .event-price {
+  font-size: 1.2em;
+  color: #28a745;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.event-list li .buy-tickets {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 15px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.event-list li .buy-tickets:hover {
+  background-color: #218838;
+  transform: translateY(-3px);
+}
+
+.event-list li .buy-tickets:active {
+  background-color: #1e7e34;
+}
+
+/* Stiluri pentru pagina de cumpărare bilete */
+.buy-ticket {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.buy-ticket h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.buy-ticket p {
+  font-size: 1.1em;
+  color: #555;
+}
+
+.buy-ticket form {
+  margin-top: 20px;
+}
+
+.buy-ticket form label {
+  font-size: 1em;
+  color: #333;
+}
+
+.buy-ticket form input {
+  padding: 8px;
+  font-size: 1em;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.buy-ticket form button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.buy-ticket form button:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+
+.buy-ticket form button:active {
+  background-color: #1e7e34;
+}
